@@ -1,0 +1,4 @@
+FROM wordpress
+#exclude .date so on so forth
+COPY ./ /var/www/html
+EXPOSE 80
